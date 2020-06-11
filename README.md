@@ -5,7 +5,7 @@ Better styled var_dump() function, with exit option
 Place this function in your project and use it like **var_dump()** with a optional second parameter for exiting instantly
 
 ## Example
-<pre><?php
+```php
 debugVar($variable);
 debugVar($variable, true);
-?></pre>
+```
